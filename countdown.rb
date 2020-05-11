@@ -1,7 +1,7 @@
-def countdown_to_midnight(countdown)
-while countdown > 0 
-  puts "#{countdown} SECOND(S)"
-  countdown -= 1 
+def countdown(seconds)
+while seconds > 0 
+  puts "#{seconds} SECOND(S)"
+  seconds -= 1 
 end 
   "HAPPY NEW YEAR!" 
 end
